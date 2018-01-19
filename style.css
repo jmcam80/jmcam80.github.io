@@ -1,0 +1,127 @@
+
+body{
+    background-color:rgb(14, 13, 13);
+   
+}
+header {
+    position:relative;
+    background-color:rgb(235, 20, 20);
+    width:100%;
+    height:75px;
+    top:0;
+    border:solid 2px black;
+    
+}
+.second{    
+    position:absolute;
+    left:500px;
+    top:400px;
+    background-color:black;
+    width:30%;
+    height:400px;
+    bottom:80px;
+    border-width:5px;  
+    border-style:groove;
+    height:100%;
+    width:800px;
+    overflow:auto;
+    float:left;
+}
+
+.third{    
+    position:absolute;
+    border:dashed 3px black;
+    width:200px;
+    height:70px;
+    right:20%;
+    top:10px;
+    background-color:white;
+}
+
+header p {
+    color:white;
+    font-size:30px;
+    padding:0px 0px 0px 10px;
+    text-align:center;
+    
+
+}
+
+div p {
+    color:white;
+    
+}
+
+.p_img{
+    float:left;
+    padding:10px 10px 10px 10px;
+}
+.p_img2{    
+    padding:10px 10px 10px 0px;
+    float:left;
+    
+    
+}
+.imgContainer{
+    width:500px;
+
+}
+.oilFieldCont{
+    position:absolute;
+    top:60px;
+    right:80px;
+    width:700px;
+    color:white;
+    
+}
+.oilFieldCont{
+    font-size:120%;
+}
+.icon{
+    margin:10px 10px 10px 10px;
+
+}
+nav {
+    position:absolute;
+    top:0px;
+    left:50%;
+    z-index:1;
+    color:black;
+    width:75px;
+    height:65px;
+    padding:10px 0px 0px 5px;
+    background-color:white;
+    
+}
+
+.cImage{
+    border-radius:30px;
+
+}
+.consctruction{
+    position:absolute;
+    top:80px;
+    left:0px;  
+    z-index: -1;
+    padding:20px 0px 0px 30px;
+
+}  
+
+footer{
+    position:relative;
+    background-color:rgb(235, 20, 20);
+    width:100%;
+    height:75px;
+    bottom:-800px;
+    border:solid 2px black;
+}  
+     
+.medic{    
+    margin:10px 0px 20px 50px;
+    float:left;
+}
+    
+span{
+    font-size:200%;
+    text-decoration:underline white;
+}
