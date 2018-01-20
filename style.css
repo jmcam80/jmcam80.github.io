@@ -1,8 +1,9 @@
-
+/*Black background */
 body{
     background-color:rgb(14, 13, 13);
    
 }
+/*A header that drives all three pages */
 header {
     position:relative;
     background-color:rgb(235, 20, 20);
@@ -12,14 +13,14 @@ header {
     border:solid 2px black;
     
 }
+/*The main bordered block with my picture and the semi truck */
 .second{    
     position:absolute;
     left:500px;
     top:400px;
     background-color:black;
     width:30%;
-    height:400px;
-    bottom:80px;
+    height:400px;    
     border-width:5px;  
     border-style:groove;
     height:100%;
@@ -27,7 +28,7 @@ header {
     overflow:auto;
     float:left;
 }
-
+/*the website links to stackoverflow, github and linkedin */
 .third{    
     position:absolute;
     border:dashed 3px black;
@@ -37,6 +38,12 @@ header {
     top:10px;
     background-color:white;
 }
+/*style for above websites */
+.icon{
+    margin:10px 10px 10px 10px;
+
+}
+/*specifically targeting paragraphs in a header */
 
 header p {
     color:white;
@@ -46,41 +53,41 @@ header p {
     
 
 }
-
+/*specifically targeting paragraphs within divs */
 div p {
     color:white;
     
 }
 
+/*Me with the flag */
 .p_img{
     float:left;
     padding:10px 10px 10px 10px;
 }
+/*oil field picture */
 .p_img2{    
     padding:10px 10px 10px 0px;
     float:left;
     
     
 }
-.imgContainer{
+/*div containing text above medic */
+.medicP{
     width:500px;
 
 }
+/*div containing the oil field picture and text for placement */
 .oilFieldCont{
     position:absolute;
-    top:60px;
+    top:80px;
     right:80px;
     width:700px;
     color:white;
+    font-size:120%;
     
 }
-.oilFieldCont{
-    font-size:120%;
-}
-.icon{
-    margin:10px 10px 10px 10px;
 
-}
+/*navigation for contact, portfolio and about me pages */
 nav {
     position:absolute;
     top:0px;
@@ -93,11 +100,12 @@ nav {
     background-color:white;
     
 }
-
+/*making the background picture for the portfolio and contact pages have rounded edges */
 .cImage{
     border-radius:30px;
 
 }
+/*positioning background image on portfolio and contact pages */
 .consctruction{
     position:absolute;
     top:80px;
@@ -106,7 +114,7 @@ nav {
     padding:20px 0px 0px 30px;
 
 }  
-
+/*a uniform footer across all pages */
 footer{
     position:relative;
     background-color:rgb(235, 20, 20);
@@ -115,12 +123,12 @@ footer{
     bottom:-800px;
     border:solid 2px black;
 }  
-     
+  /*combat medic picture */   
 .medic{    
     margin:10px 0px 20px 50px;
     float:left;
 }
-    
+  /*playing around with text size and decoration using span. Not to look pretty, but to show off */  
 span{
     font-size:200%;
     text-decoration:underline white;
