@@ -13,6 +13,22 @@ header {
     border:solid 2px black;
     
 }
+.internalNav{
+    position:absolute;
+    top:10px;
+    background-color:ivory;
+}
+
+.internalNav:hover{
+    background-color:green;
+}
+
+.intNavButton{
+    border:solid 1px white;
+    padding:5px;
+    margin:5px;
+    float:left;
+}
 
 /*the website links to stackoverflow, github and linkedin */
 .third{    
