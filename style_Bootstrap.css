@@ -1,0 +1,14 @@
+.col-md-1 {
+    border:solid 1px navy;
+    color:white;
+    display:inline-block;
+    font-size:20px;
+    margin:5px 5px;
+    
+}
+
+.col-md-1:hover{
+    background-color: green;
+    
+}
+
