@@ -1,0 +1,54 @@
+.arthurImg {
+
+    width: 200px;
+    height: 275px;
+    float: left;
+    
+}
+
+.bKnightImg {
+
+    width: 200px;
+    height: 275px;
+    float: right;
+    
+}
+
+.kingArthurButton {
+    float:left;
+    margin-left:80px
+    
+}
+
+.BknightButton {
+    margin-left:400px;
+    
+}
+
+.arthurP {
+    border: 1px solid black; 
+    /* height:500px; */
+    width:250px;
+    margin-left:50px;
+    display:inline-block;
+    
+}
+
+.bKnightP {
+    border: 1px solid black;
+    /* height:500px; */
+    width:250px;
+    margin-left: 350px;
+    display:inline-block;
+    
+}
+
+.endGameB {
+    position:relative;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.reset {
+    float:left;
+}
